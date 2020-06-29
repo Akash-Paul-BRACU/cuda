@@ -1,0 +1,282 @@
+@media only screen and (max-width:1200px) {
+    .mobile-menu span {
+        display: block;
+    }
+    header {
+        height: 65vh;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+     .about .col:nth-child(1),
+    .about .col:nth-child(2),
+    .about .col:nth-child(3),
+    .about .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    header {
+        height: 55vh;
+    }
+    .row {
+        margin: 0 27px;
+    }
+    .content {
+        width: 90%;
+    }
+    .nav {
+        display: none;
+    }
+    html {
+        font-size: 57.5%;
+    }
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    
+     .about .col:nth-child(1),
+    .about .col:nth-child(2),
+    .about .col:nth-child(3),
+    .about .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    header {
+        height: 55vh;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin: 0;
+    }
+    .col:nth-child(3) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .team p {
+        margin-left: 25%;
+    }
+    html {
+        font-size: 56.5%;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+     .about .col:nth-child(1),
+    .about .col:nth-child(2),
+    .about .col:nth-child(3),
+    .about .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header {
+        height: 65vh;
+    }
+    .row {
+        margin: 0 10px;
+    }
+    .team p {
+        margin-left: 20%;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+     .about .col:nth-child(1),
+    .about .col:nth-child(2),
+    .about .col:nth-child(3),
+    .about .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    header {
+        height: 55vh;
+    }
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .portfolio .portfolio-filter {
+        width: auto;
+    }
+    .portfolio .row {
+        margin: 0 -30px;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width:414px) {
+    header {
+        height: 75vh;
+    }
+    .team p {
+        margin-left: 14%;
+    }
+    .social-link {
+        padding-right: 0;
+    }
+    .portfolio button {
+        margin: 1rem 1.5rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    
+    .about  button {
+        padding: 2rem 5rem;
+        margin:1rem;
+    }
+     .about .col:nth-child(1),
+    .about .col:nth-child(2),
+    .about .col:nth-child(3),
+    .about .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    header {
+        height: 75vh;
+    }
+    .team .con {
+        margin-left: 12%;
+    }
+    .portfolio button {
+        padding: 1rem 3rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    .about  button {
+        padding: 2rem 5rem;
+        margin:1rem;
+    }
+     .about .col:nth-child(1),
+    .about .col:nth-child(2),
+    .about .col:nth-child(3),
+    .about .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .team .con {
+        margin-left: 8%;
+    }
+    .social-link {
+        padding-right: 0;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+     .about .col:nth-child(1),
+    .about .col:nth-child(2),
+    .about .col:nth-child(3),
+    .about .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    header {
+        height: 95vh;
+    }
+    .team p {
+        text-align: center;
+    }
+    .team .con {
+        margin-left: 1%;
+    }
+    .portfolio button {
+        padding: 1rem 2rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    .about  button {
+        padding: 2rem 4rem;
+        margin:1rem;
+    }
+    
+     .about .col:nth-child(1),
+    .about .col:nth-child(2),
+    .about .col:nth-child(3),
+    .about .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    header {
+        height: 85vh;
+    }
+    .social-link {
+        padding-right: 0;
+    }
+    .portfolio button {
+        padding: .3rem 1.5rem;
+    }
+    .btn {
+        padding: 1.5rem 2rem;
+    }
+    .social-link ul li a:hover i::before {
+        background: #393939;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    
+    
+}
